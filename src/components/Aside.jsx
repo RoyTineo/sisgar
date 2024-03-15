@@ -91,12 +91,7 @@ export default function Aside() {
                 </p>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="./index2.html" className="nav-link active">
-                <i className="far fa-circle nav-icon" />
-                <p>Dashboard v2</p>
-              </Link>
-            </li>
+            
           </ul>
         </nav>
         {/* /.sidebar-menu */}

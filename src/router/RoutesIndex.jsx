@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import TramiteDocumentario from "../pages/TramiteDocumentario";
+import TramiteDocumentario from "../pages/tramiteDocumentario/TramiteDocumentario";
 import Programacion from "../pages/Programacion";
 import NotFound from "../pages/NotFound";
 
