@@ -1,5 +1,6 @@
 import React from "react";
 import FormPersona from "./FormPersona";
+import MyForm from "../pruebas"
 
 function TramiteDocumentario() {
   return (
@@ -133,7 +134,7 @@ function TramiteDocumentario() {
                       className="custom-control-input"
                       type="radio"
                       id="inputFormato1"
-                      name="customRadio"
+                      name="inputFormato"
                       defaultChecked
                     />
                     <label
@@ -148,7 +149,7 @@ function TramiteDocumentario() {
                       className="custom-control-input"
                       type="radio"
                       id="inputFormato2"
-                      name="customRadio"
+                      name="inputFormato"
                     />
                     <label
                       htmlFor="inputFormato2"
@@ -189,6 +190,10 @@ function TramiteDocumentario() {
           </div>
         </div>
       </form>
+
+{/* Componente de pruebas */}
+<MyForm></MyForm>
+      
 
       {/* Tabla  */}
       <div className="row g-4 mt-4">
